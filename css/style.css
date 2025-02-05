@@ -10,12 +10,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(0deg, rgb(255, 195, 118) 0%,  rgba(241,211,211,1) 100%);
+    color: rgb(159, 108, 108);
+}
+
+html, body {
+    height: 100%;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 4.2rem;
+    text-transform: uppercase;
 }
 
 #container{
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 16%;
 }
 
 button {
@@ -23,18 +37,18 @@ button {
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
-    background-color: hsl(219, 100%, 50%);
+    background-color: hsl(33, 97%, 56%);
     color: whitesmoke;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: hsl(210, 100%, 60%);
+    background-color: hsl(33, 90%, 64%);
 }
 
 button:active {
-    background-color: hsl(210, 100%, 70%);
+    background-color: hsl(33, 100%, 78%);
 }
 
 input {
@@ -42,8 +56,10 @@ input {
     width: 150px;
     text-align: center;
     font-weight: bold;
+    color: hsl(33, 97%, 56%);
 }
 
 figure#diceImages img {
-    width: 30%;
+    width: 15rem;
+    padding: 1.5rem;
 }
